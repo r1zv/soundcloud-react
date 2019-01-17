@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import configureStore from './stores/configureStore';
+import * as actions from './actions';
+import Stream from './components/Stream';
 
 const title = 'My Minimal React Webpack Setup';
 
@@ -11,15 +14,13 @@ const tracks = [
 		title: 'some other track'
 	}
 ]
+
+const store = configureStore();
+store.dispatch(actions.setTracks(tracks));
+
 ReactDOM.render(
-<div>
-	{
-		tracks.map((track, key) => {
-			return <div className="track" key={key}>{track.title}</div>
-		})
-	}
-</div>,
+	<Stream />,
 	document.getElementById('app')
-	);
+);
 
 module.hot.accept();
