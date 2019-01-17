@@ -1,2 +1,2 @@
-# minimal-react-boilerplate
-React, Webpack, and Babel 
+# soundcloud-react
+SoundCloud, React, Redux

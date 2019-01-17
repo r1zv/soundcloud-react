@@ -1,5 +1,5 @@
 {
-  "name": "minimal-react-boilerplate",
+  "name": "soundclound-react",
   "version": "1.0.0",
   "description": "React, Webpack, and Babel",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r1zv/minimal-react-boilerplate.git"
+    "url": "git+https://github.com/r1zv/soundclound-react.git"
   },
   "keywords": [],
   "author": "Asad Rizvi <rizvas.dev@gmail.com> (example.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/r1zv/minimal-react-boilerplate/issues"
+    "url": "https://github.com/r1zv/soundclound-react/issues"
   },
-  "homepage": "https://github.com/r1zv/minimal-react-boilerplate#readme",
+  "homepage": "https://github.com/r1zv/soundclound-react#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
